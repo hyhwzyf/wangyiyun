@@ -23,10 +23,13 @@ def cht_to_chs(line):
     line.encode('utf-8')
     return line
 for i in lyrics:
-    sql="insert into lyric2(songid,lyric) values(%s,'%s')"%(i[0],cht_to_chs(i[1]))
-    # print(sql)
-    cursor=connection.cursor()
-    cursor.execute(sql)
-    cursor.close()
-    connection.commit()
+    try:
+        sql="insert into lyric2(songid,lyric) values(%s,'%s')"%(i[0],cht_to_chs(i[1]))
+        # print(sql)
+        cursor=connection.cursor()
+        cursor.execute(sql)
+        cursor.close()
+        connection.commit()
+    except Exception as e:
+        print(e)
 connection.close()
