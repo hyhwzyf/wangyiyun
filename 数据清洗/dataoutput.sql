@@ -1,6 +1,6 @@
 use wangyiyun;
-select d.singertype,d.singername,b.songname,c.time,c.albumcomment,a.songid,a.lyric from 
-(select * from lyric3 where id <=100000 ) a
+select d.singertype,d.singername,b.songname,c.time,c.albumcomment,a.songid,a.lyric 
+from lyric3 a
 left join song b on a.songid=b.songid
 left join album c on b.albumid=c.albumid
 left join singer d on d.singerid=c.singerid
