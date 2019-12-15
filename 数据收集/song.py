@@ -7,19 +7,19 @@ import time
 import random
 
 cookies={
-	'mail_psc_fingerprint':'a1584fc59bb6a4d7e9fcf6fede4c762e',
+	'mail_psc_fingerprint':'',
 	'_iuqxldmzr_':'32',
-	'_ntes_nnid':'544a2965ba3d1d64e35494733249a7da,1550471029693',
-	'_ntes_nuid':'544a2965ba3d1d64e35494733249a7da',
-	'WM_TID':'3X9p%%2BMWSGz9AFBRBQRY5xO%%2F%%2FMTwsWIF7',
+	'_ntes_nnid':'',
+	'_ntes_nuid':'',
+	'WM_TID':'',
 	'usertrack':'ezq0ZVyhVd9DxWa/FuHcAg==',
-	'vinfo_n_f_l_n3':'abad5bcd59020ce9.1.0.1554542607651.0.1554542648056',
-	'P_INFO':'ruchyh@163.com|1564944218|0|mail163|00&99|null&null&null#IL&null#10#0#0|156263&1||ruchyh@163.com',
+	'vinfo_n_f_l_n3':'',
+	'P_INFO':'',
 	'hb_MA-9ADA-91BF1A6C9E06_source':'www.baidu.com',
-	'WM_NI':'FhQrFoW%%2FLH622UgCln73s5jAeltJe96BpLwE4G3FzHSEwhA8c9YMMJnpUrH59ltgBJ5gIg7BaOqNeQ7rh8RMiZEdtavO%%2FgrKlnKst4rh0E%%2BLW9Lgo0sQLfiXNAp8oVd%%2BWHo%%3D',
-	'mp_MA-9ADA-91BF1A6C9E06_hubble':'%%7B%%22sessionReferrer%%22%%3A%%20%%22https%%3A%%2F%%2Fcampus.163.com%%2Fapp%%2Fhy%%2Foverseas%%22%%2C%%22updatedTime%%22%%3A%%201571499271101%%2C%%22sessionStartTime%%22%%3A%%201571499072580%%2C%%22sendNumClass%%22%%3A%%20%%7B%%22allNum%%22%%3A%%204%%2C%%22errSendNum%%22%%3A%%200%%7D%%2C%%22deviceUdid%%22%%3A%%20%%220993f65c-4e77-440e-842e-5baeed7d8fad%%22%%2C%%22persistedTime%%22%%3A%%201571499072574%%2C%%22LASTEVENT%%22%%3A%%20%%7B%%22eventId%%22%%3A%%20%%22da_screen%%22%%2C%%22time%%22%%3A%%201571499271101%%7D%%2C%%22sessionUuid%%22%%3A%%20%%22dceb9440-cd9d-4956-93a2-a3deefd3da08%%22%%7D',
-	'JSESSIONID-WYYY':'6O5nnteTesTIwQVdtMJy0SKiKwnQS1BN5JH9%%2BDoGfTVtkarDWTVA9B%%2FNUxpwQyz3h1C0GJ1TmIT59HgTFH5%%2B187JoDAedcEbJimtq7Zul94IG0rHvcFFEV6jQoJUeBEOk8WfTgVOo2%%2FPwaUk3zb2peFChWrQiap4dFCCFQXnajCY3QiW%%3A1574130675139',
-	'WM_NIKE':'9ca17ae2e6ffcda170e2e6eeacd74e92b8c0adb36b979e8aa3d14e869b8bbbf77a9ce8fad3f2808aafb9d0b12af0fea7c3b92a9bf1a1b9e55b978989b3b76e93b397bab87afcbbadb0b26e8dae8cd9fb3a8fb7beacdb44bce88191d845f19e8b83d53daebd89d5d865adb1a2d3f65a9a908885d93bf6aaffa9fb25859ba28ce148bc8eb7d2db4b95ed8687d9599bbbfa87e4258e95a8bbe16db4bcacd1db72a3b398d5ef4785af9b93c45e9389fbaed43fb4ebaeb6c837e2a3'
+	'WM_NI':'',
+	'mp_MA-9ADA-91BF1A6C9E06_hubble':'',
+	'JSESSIONID-WYYY':'',
+	'WM_NIKE':''
 }
 
 headers={
