@@ -7,7 +7,7 @@ import time
 import random
 import re
 
-connection=pymysql.connect(host='localhost',port=3306,user='root',password='sdfzg11b',db='wangyiyun',charset='utf8')
+connection=pymysql.connect(host='localhost',port=3306,user='root',password='1111111',db='wangyiyun',charset='utf8')
 # cookies={
 # 	'mail_psc_fingerprint':'',
 # 	'_iuqxldmzr_':'32',
