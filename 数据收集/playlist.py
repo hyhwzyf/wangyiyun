@@ -56,7 +56,7 @@ for i in range(len(types)):
 print(len(result))
 
 for i in result:
-	connection=pymysql.connect(host='localhost',port=3306,user='root',password='sdfzg11b',db='wangyiyun',charset='utf8')
+	connection=pymysql.connect(host='localhost',port=3306,user='root',password='1111111',db='wangyiyun',charset='utf8')
 	cursor=connection.cursor()
 	sql="insert into playlist(type,topic,plid,plname) values('%s','%s',%s,'%s')"%(i[0],i[1],i[2],i[3].replace("'",'"'))
 	print(sql)
